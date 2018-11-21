@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+import osascript
+
+code, out, err = osascript.run("return 1")
+assert out.strip() == "1"
