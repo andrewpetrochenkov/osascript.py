@@ -1,11 +1,11 @@
-#!/usr/bin/env python
+__all__ = ['run', 'osascript']
+
+
 import os
-import public
 import runcmd
 import temp
 
 
-@public.add
 def run(applescript, background=False):
     """run applescript file/code"""
     if os.path.exists(applescript):

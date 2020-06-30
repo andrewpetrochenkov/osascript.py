@@ -1,23 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/badge/OS-MacOS-blue.svg?longCache=True)]()
-[![](https://img.shields.io/pypi/pyversions/osascript.svg?longCache=True)](https://pypi.org/project/osascript/)
-[![](https://img.shields.io/pypi/v/osascript.svg?maxAge=3600)](https://pypi.org/project/osascript/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/osascript.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/osascript.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/osascript.svg?maxAge=3600)](https://pypi.org/project/osascript/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/osascript.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/osascript.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install osascript
 ```
-
-#### Functions
-function|`__doc__`
--|-
-`osascript.osascript(applescript, background=False)` |run applescript file/code. deprecated
-`osascript.run(applescript, background=False)` |run applescript file/code
 
 #### Examples
 ```python
@@ -30,5 +23,5 @@ function|`__doc__`
 +   [osascript(1) Man Page](https://ss64.com/osx/osascript.html)
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
