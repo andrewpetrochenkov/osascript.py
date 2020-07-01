@@ -18,7 +18,6 @@ def run(applescript, background=False):
     return r.code, r.out, r.err
 
 
-@public.add
 def osascript(applescript, background=False):
     """run applescript file/code. deprecated"""
     return run(applescript, background=False)
