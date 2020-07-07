@@ -2,8 +2,15 @@ __all__ = ['run', 'osascript']
 
 
 import os
+from tempfile import mkstemp
 import runcmd
-import temp
+
+
+def tempfile():
+    """create temp file and return path"""
+    f, path = mkstemp()
+    os.close(f)
+    return path
 
 
 def run(applescript, background=False):
@@ -11,7 +18,7 @@ def run(applescript, background=False):
     if os.path.exists(applescript):
         path = applescript
     else:
-        path = temp.tempfile()
+        path = tempfile()
         open(path, "w").write(applescript)
     cmd = ["osascript", path]
     r = runcmd.run(cmd, background=background)
